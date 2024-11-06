@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 700px;
+    height: 500px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    animation-name: box-animation;
+    animation-duration: 1s;
+}
+
+@keyframes box-animation{
+    from {
+        background-color: red;
+        width: 0px;
+        height: 0px;
+    }
+
+    to {
+        background-color: green;
+        width: 200px;
+        height: 250px;
+    }
+
+}
